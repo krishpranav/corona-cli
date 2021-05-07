@@ -33,4 +33,13 @@ class CliCorona extends Command {
       covidData = await data.get(country);
     }
 
+    const message = _.get(covidData, ['data', 'message']);
+    if (message) {
+      this.log(chalk.bold.red(message));
+    } else {
+      await table.draw(covidData);
+    }
+  }
 }
+
+export = CliCorona;
