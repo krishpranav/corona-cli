@@ -36,7 +36,6 @@ export default class Table {
   }
 
   private static formatNumber(number: number): string {
-      return Number((number).toFixed(1)).toLocaleString();
+    return Number((number).toFixed(1)).toLocaleString();
   }
-
 }
