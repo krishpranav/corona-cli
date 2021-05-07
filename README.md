@@ -10,3 +10,14 @@ cd corona-cli
 yarn install
 yarn start
 ```
+
+# Data can be fetched
+```
+Country
+Cases
+Deaths
+Recovered
+Active
+Critical
+Per Million
+```
