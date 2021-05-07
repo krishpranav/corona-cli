@@ -8,7 +8,7 @@ Track covid 19 cases from your cli
 git clone https://github.com/krishpranav/corona-cli
 cd corona-cli
 yarn install
-yarn start
+yarn dev
 ```
 
 # Data can be fetched
